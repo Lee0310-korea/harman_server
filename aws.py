@@ -41,8 +41,4 @@ def compare_face_main():
     target_file = 'file2'# 비교할 대상 사진 
     face_matches = compare_faces(source_file, target_file)
     print(f"동일 인물일 확률은 {face_matches:.2f}%입니다")
-
-
-
-result= compare_faces(".\페이커\페이커3.jpg",".\페이커\페이커10.jpg")
-print(result)   
+  
