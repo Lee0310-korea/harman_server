@@ -3,6 +3,7 @@ from flask import request, redirect, make_response
 from aws import detect_labels_local_file as label
 from aws import compare_faces
 from werkzeug.utils import secure_filename
+import boto3
 
 app = Flask(__name__)
 
